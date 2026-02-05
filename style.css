@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #0b0b0f, #140d12);
+  color: #f5f5f5;
+  text-align: center;
+}
+
+/* 🌹 Nav */
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(20,10,15,0.9);
+  padding: 15px;
+  z-index: 100;
+}
+
+nav a, nav button {
+  color: #f2b3c9;
+  margin: 0 15px;
+  background: none;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav a:hover, nav button:hover {
+  color: #ff4b6e;
+}
+
+.photo-message div{
+  padding: 60px 20px;
+  margin: 40px auto;
+  max-width: 900px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 22px;
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+  font-size: 2rem;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* 🌸 Sections */
+section {
+  padding: 60px 20px;
+  margin: 40px auto;
+  max-width: 900px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 22px;
+}
+
+h1 {
+  color: #ff4b6e;
+  font-size: 3em;
+}
+
+h2 {
+  color: #ffb3c7;
+  margin-bottom: 20px;
+}
+
+
+
+/* 🖼 Images */
+img {
+  height: 300px;
+  border-radius: 18px;
+  border: 2px solid rgba(255,75,110,0.6);
+  box-shadow: 0 0 20px rgba(255,75,110,0.35);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.07);
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Letters */
+.letter {
+  background: rgba(255,255,255,0.06);
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 20px;
+  line-height: 1.7;
+}
+
+/* Buttons */
+button {
+  padding: 14px 36px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ff4b6e, #b1003a);
+  color: white;
+  margin-top: 20px;
+}
+
+/* Timer */
+#timer {
+  font-size: 1.8em;
+  margin: 20px 0;
+  color: #ffb3c7;
+}
+
+/* Hidden Surprise */
+#hidden {
+  display: none;
+  margin-top: 20px;
+  font-size: 1.4em;
+  color: #ff4b6e;
+}
+
+footer {
+  margin: 40px 0;
+  color: #cfa3b5;
+}
